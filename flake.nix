@@ -53,6 +53,8 @@
             '';
           };
         };
+
+        defaultPackage.x86_64-linux = self.packages.${system}.manyfold;
       }
     );
 }
